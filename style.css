@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-size: 1.3rem;
+}
+
+.container {
+
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1128px;
+
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+}
+
+p {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*styling first section*/
+.section1 {
+    min-height: 660px;
+    background-color: #F3EED9;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+/* 
+.content {
+    margin: 55px auto;
+    faced issue with centering it
+
+width: 70%;
+}
+
+*/
+
+/*the centering issue was fixed by removing unnecessary div*/
+.subtitle {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+
+.main_title {
+    color: #824936;
+    margin-top: 0;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+
+
+
+
+}
+
+/*styling second section */
+.section2 {
+
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 36px;
+    color: #824936;
+
+
+}
+
+/*flexbox styling*/
+
+/*  */
+
+
+/*styling third section*/
+.section3 {
+    background-color: #222C2A;
+    padding: 100px 0;
+    color: white;
+}
+
+/*styling fourth section*/
+.section4 {
+    background-color: #824936;
+    padding: 100px 0;
+    color: white;
+}
+
+@media (min-width:800px) {
+    .flex_section {
+        display: flex;
+        /* text-align: left; */
+        gap: 2.5em;
+
+
+
+    }
+
+    .first_item {
+        width: 50%;
+
+    }
+
+    .second_item {
+        width: 50%;
+
+    }
+}
